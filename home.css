@@ -1,0 +1,24 @@
+.red{
+    font-family: 'Modak', cursive; 
+    color: red;
+    animation: bouncing-letter 4.5s infinite 0s running;
+}
+
+@keyframes bouncing-letter{
+    0%{
+        transform: translateY(0px);
+    }
+    25%{
+        transform: translateY(10px);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    75%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: rotate(45deg);
+        transform: translateY(0px);
+    }
+}

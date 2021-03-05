@@ -1,9 +1,49 @@
+/* CSS of heading "Mark Boyle" */
+.heading{
+    max-width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 150px;
+    text-shadow: 5px 5px black;
+    border: 1px solid black;
+}
+
+.heading p{
+    margin: 0px 5px;
+}
+
+/* Classes for the letters of the heading */
 .red{
     font-family: 'Modak', cursive; 
     color: red;
     animation: bouncing-letter 4.5s infinite 0s running;
 }
 
+.yellow{
+    font-family: 'Modak', cursive; 
+    color: rgb(246, 141, 3);
+    animation: bouncing-letter 4.5s infinite 0.5s running;
+}
+
+.green{
+    font-family: 'Modak', cursive; 
+    color: green;
+    animation: bouncing-letter 4.5s infinite 1.5s running;
+}
+
+.blue{
+    font-family: 'Modak', cursive; 
+    color: rgb(0, 0, 252);
+    animation: bouncing-letter 4.5s infinite 2s running;
+}
+
+.purple{
+    font-family: 'Modak', cursive; 
+    color: purple;
+    animation: bouncing-letter 4.5s infinite 2.5s running;
+}
+
+/* Animation to make letters bounce */
 @keyframes bouncing-letter{
     0%{
         transform: translateY(0px);

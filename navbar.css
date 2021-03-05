@@ -1,0 +1,28 @@
+.navbar{
+    max-width: 150px;
+    position: fixed;
+    left: 90%;
+    top: 3%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: flex-end; */
+    border: 1px solid black;
+    nav-right: auto;
+    font-size: 30px;
+}
+
+.navbar a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    nav-right: auto;
+    
+}

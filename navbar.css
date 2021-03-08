@@ -1,28 +1,29 @@
 .navbar{
-    max-width: 150px;
+    max-height: 80px;
     position: fixed;
-    left: 90%;
-    top: 3%;
+    /* left: 90%;
+    top: 3%; */
     padding: 10px;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     /* justify-content: center; */
     /* align-items: flex-end; */
-    border: 1px solid black;
-    nav-right: auto;
+    /* border: 1px solid black; */
+    /* nav-right: auto; */
     font-size: 30px;
 }
 
 .navbar a{
-    color: black;
+    color: rgb(112, 66, 30);
     text-decoration: none;
     font-weight: 600;
+    padding: 10px;
 }
 
 .nav-container{
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    /* justify-content: flex-end; */
+    /* align-items: flex-end; */
     nav-right: auto;
     
 }

@@ -1,8 +1,41 @@
+/* Background Colour */
+body{
+    background-color: rgb(249, 228, 204);
+}
+
+/* Image of leaves falling from branch */
+.branch-image{
+    max-width: 30%;
+    position: fixed;
+    top: 80px;  
+}
+
+/* Container for Heading and text */
+.heading-and-text{
+    position: relative;
+    left: 30%;
+    max-width: 65%;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid blue;
+}
+
+#intro-text{
+    color: #70421e;
+    font-size: 36px;
+}
+
+
+
 /* CSS of heading "Mark Boyle" */
 .heading{
-    max-width: 80%;
+    max-width: 100%;
+    position: relative;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    flex-wrap: wrap;    
     font-size: 150px;
     text-shadow: 5px 5px black;
     border: 1px solid black;
@@ -15,32 +48,26 @@
 /* Classes for the letters of the heading */
 .red{
     font-family: 'Modak', cursive; 
-    color: red;
+    color: rgb(225, 100, 56);
     animation: bouncing-letter 4.5s infinite 0s running;
 }
 
 .yellow{
     font-family: 'Modak', cursive; 
-    color: rgb(246, 141, 3);
+    color: rgb(247, 190, 41);
     animation: bouncing-letter 4.5s infinite 0.5s running;
 }
 
 .green{
     font-family: 'Modak', cursive; 
-    color: green;
+    color: rgb(154, 162, 102);
     animation: bouncing-letter 4.5s infinite 1.5s running;
 }
 
-.blue{
+.brown{
     font-family: 'Modak', cursive; 
-    color: rgb(0, 0, 252);
+    color: rgb(112, 66, 30);
     animation: bouncing-letter 4.5s infinite 2s running;
-}
-
-.purple{
-    font-family: 'Modak', cursive; 
-    color: purple;
-    animation: bouncing-letter 4.5s infinite 2.5s running;
 }
 
 /* Animation to make letters bounce */

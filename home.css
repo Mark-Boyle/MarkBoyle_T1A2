@@ -19,7 +19,7 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
 #intro-text{
@@ -38,7 +38,7 @@ body{
     flex-wrap: wrap;    
     font-size: 150px;
     text-shadow: 5px 5px black;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .heading p{
@@ -88,4 +88,23 @@ body{
         transform: rotate(45deg);
         transform: translateY(0px);
     }
+}
+
+.links-container{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.leaf{
+    max-height: 70px;
+    position: relative;
+    top: 10px;
+}
+
+.heading-and-text a{
+    font-size: 70px;
+    color:rgb(112, 66, 30);
+    margin: 20px;
+    text-decoration: none;
 }

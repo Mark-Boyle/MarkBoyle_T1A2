@@ -10,8 +10,22 @@
 }
 
 #aboutme-text{
-    max-width: 70%;
-    margin-top: 50px;
+    max-width: 45%;
+    /* margin-top: 50px; */
     color: rgb(112, 66, 30);
     font-size: 24px;
+    padding: 0px 20px;
+}
+
+#skills{
+    max-width: 45%;
+    color: rgb(112, 66, 30);
+    font-size: 24px;
+    padding: 0px 20px;
+
+}
+
+.aboutme-text-container{
+    display: flex;
+    justify-content: center;
 }

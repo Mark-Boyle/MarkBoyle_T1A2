@@ -1,6 +1,14 @@
 /* Background Colour */
 body{
     background-color: rgb(249, 228, 204);
+    max-height: 100vh;
+}
+
+footer{
+    color: #70421e;
+    position: relative;
+    top: 100%;
+
 }
 
 /* Image of leaves falling from branch */
@@ -84,7 +92,6 @@ body{
         transform: translateY(10px);
     }
     100%{
-        transform: rotate(45deg);
         transform: translateY(0px);
     }
 }
@@ -92,7 +99,6 @@ body{
 .links-container{
     display: flex;
     flex-direction: column;
-
 }
 
 .leaf{
@@ -102,8 +108,75 @@ body{
 }
 
 .heading-and-text a{
-    font-size: 70px;
+    font-size: 90px;
+    font-weight: bold;
     color:rgb(112, 66, 30);
     margin: 20px;
     text-decoration: none;
+}
+
+.ripple p{
+    display: inline;
+}
+
+.ripple-red:hover{
+    animation: ripple-red 10s 0s;
+}
+
+.ripple-yellow:hover{
+    animation: ripple-yellow 10s 0s;
+}
+
+.ripple-green:hover{
+    animation: ripple-green 10s 0s;
+}
+
+
+
+@keyframes ripple-red{
+    0%{
+        transform: translateY(0px);
+    }
+    3%{
+        transform: translateY(-8px);
+        color: rgb(225, 100, 56);
+    }
+    6%{
+        transform: translateY(0px);
+    }
+    100%{
+        color: rgb(112, 66, 30);
+    }
+}
+
+@keyframes ripple-yellow{
+    0%{
+        transform: translateY(0px);
+    }
+    3%{
+        transform: translateY(-8px);
+        color: rgb(247, 190, 41);
+    }
+    6%{
+        transform: translateY(0px);
+    }
+    100%{
+        color: rgb(112, 66, 30);
+    }
+}
+
+@keyframes ripple-green{
+    0%{
+        transform: translateY(0px);
+    }
+    3%{
+        transform: translateY(-8px);
+        color: rgb(154, 162, 102);
+    }
+    6%{
+        transform: translateY(0px);
+    }
+    100%{
+        color: rgb(112, 66, 30);
+    }
 }

@@ -1,0 +1,15 @@
+.blog-posts a{
+    color: rgb(112, 66, 30);
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+.blog-posts a img{
+    margin-right: 10px;
+}
+
+.blog-posts p{
+    color: rgb(112, 66, 30);
+    font-size: 20px;
+    margin-left: 70px;
+}

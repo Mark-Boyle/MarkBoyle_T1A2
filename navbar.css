@@ -33,7 +33,7 @@
 .nav-container a img{
     max-height: 45px;
     position: relative;
-    margin-inline-end: 90%;
+    /* margin-inline-end: 90%; */
 }
 
 .social-media-links{
@@ -50,6 +50,38 @@
 
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 600px){
+    .nav-container{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        margin: 0px;
+        /* nav-right: auto; */
+        top: 180px;
+        width: 100px;
+        height: 300px;
 
+    }
+
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        height: 250px;
+        /* max-width: 100%; */
+        padding: 10px;
+        /* display: flex; */
+        font-size: 25px;
+    }
+    .social-media-links{
+        position: relative;
+        left: 10%;
+        top: 210px;
+        margin: 10px;
+    }
+    .nav-container a img{
+        max-height: 35px;
+        position: relative;
+        /* margin-inline-end: 90%; */
+    }
 }

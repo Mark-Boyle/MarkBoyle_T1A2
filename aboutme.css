@@ -22,7 +22,14 @@
     color: rgb(112, 66, 30);
     font-size: 24px;
     padding: 0px 20px;
+}
 
+#resume-link{
+    font-size: 60px;
+    font-weight: bold;
+    color:rgb(112, 66, 30);
+    margin: 20px;
+    text-decoration: none;
 }
 
 .aboutme-text-container{

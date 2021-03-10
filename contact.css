@@ -25,14 +25,18 @@ button{
 .contact-link-container{
     display: flex;
     flex-direction: column;
+    
 }
 
 .contact-link{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 25px;
+    font-size: 90px;
     color: rgb(112, 66, 30);
+    font-weight: bold;
+    margin: 20px;
+    text-decoration: none;
 
 }
 

@@ -2,6 +2,9 @@
     color: rgb(112, 66, 30);
     font-size: 50px;
     margin-bottom: 0px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: none;
 }
 
 .blog-posts a img{
@@ -11,7 +14,7 @@
 .blog-posts p{
     color: rgb(112, 66, 30);
     font-size: 20px;
-    margin-left: 70px;
+    margin: 0px 0px 20px 70px;
 }
 
 .heading-container{

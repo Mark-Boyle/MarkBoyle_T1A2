@@ -13,3 +13,27 @@
     font-size: 20px;
     margin-left: 70px;
 }
+
+.heading-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-post-heading{
+    color: rgb(112, 66, 30);
+    font-size: 50px;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.blog-post-image{
+    max-width: 20%;
+}
+
+.blog-post-text{
+    max-width: 70%;
+    margin-top: 5%;
+    font-size: 25px;
+    color: rgb(112, 66, 30);
+}

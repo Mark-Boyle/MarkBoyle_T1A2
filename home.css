@@ -1,13 +1,15 @@
 /* Background Colour */
 body{
     background-color: rgb(249, 228, 204);
-    max-height: 100vh;
+    max-height: 100%;
+    /* max-width: 100vw; */
+    /* position: absolute; */
 }
 
 footer{
     color: #70421e;
     position: relative;
-    top: 100%;
+    background-position: bottom;
 
 }
 
@@ -32,6 +34,7 @@ footer{
 #intro-text{
     color: #70421e;
     font-size: 36px;
+    padding: 10px;
 }
 
 
@@ -50,6 +53,14 @@ footer{
 
 .heading p{
     margin: 0px 5px;
+}
+
+.first-name{
+    display: flex;
+}
+
+.last-name{
+    display: flex;
 }
 
 /* Classes for the letters of the heading */
@@ -77,6 +88,9 @@ footer{
     animation: bouncing-letter 4.5s infinite 2s running;
 }
 
+#space{
+    margin-right: 50px;
+}
 /* Animation to make letters bounce */
 @keyframes bouncing-letter{
     0%{
@@ -180,3 +194,54 @@ footer{
         color: rgb(112, 66, 30);
     }
 }
+
+@media only screen and (max-width: 1350px) {
+    .heading{
+        font-size: 100px;
+    }
+    .heading-and-text a{
+        font-size: 80px;
+        font-weight: bold;
+        color:rgb(112, 66, 30);
+        margin: 20px;
+        text-decoration: none;
+    }
+}
+
+@media only screen and (max-width: 970px) {
+    .heading{
+        font-size: 70px;
+    }
+    .heading-and-text a{
+        font-size: 60px;
+        font-weight: bold;
+        color:rgb(112, 66, 30);
+        margin: 20px;
+        text-decoration: none;
+    }
+    #intro-text{
+        font-size: 30px;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .heading{
+        font-size: 60px;
+    }
+    #space{
+        margin-right: 10px;
+    }
+    .heading-and-text a{
+        font-size: 40px;
+        font-weight: bold;
+        color:rgb(112, 66, 30);
+        margin: 20px;
+        text-decoration: none;
+    }
+    #intro-text{
+        font-size: 25px;
+        padding: 10px;
+    }
+}
+

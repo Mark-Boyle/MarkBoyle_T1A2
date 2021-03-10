@@ -1,0 +1,48 @@
+.message-form{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.message{
+    background-color: rgb(249, 228, 204);
+    margin: 5px;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 5px;
+    /* border: rgb(112, 66, 30); */
+}
+
+button{
+    background-color: rgb(112, 66, 30);
+    color: rgb(247, 190, 41);
+    max-width: 50%;
+    margin: 5px;
+    font-size: 30px;
+    border-radius: 10px;    
+}
+
+.contact-link-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: rgb(112, 66, 30);
+
+}
+
+.contact-link img{
+    max-width: 15%;
+    margin: 10px;
+}
+
+#message-form-header{
+    color: rgb(112, 66, 30);
+    font-size: 35px;
+    font-weight: bold;
+}

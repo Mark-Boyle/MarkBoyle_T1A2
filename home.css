@@ -1,16 +1,14 @@
 /* Background Colour */
 body{
     background-color: rgb(249, 228, 204);
-    max-height: 100%;
-    /* max-width: 100vw; */
-    /* position: absolute; */
+    height: 100vh;
 }
 
 footer{
     color: #70421e;
-    position: relative;
-    background-position: bottom;
-
+    position: sticky;
+    top: 95%;
+    padding: 10px;
 }
 
 /* Image of leaves falling from branch */

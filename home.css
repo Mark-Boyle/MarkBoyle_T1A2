@@ -194,6 +194,7 @@ footer{
     }
 }
 
+/* Media queries to make the website responsive to smaller screen sizes */
 @media only screen and (max-width: 1350px) {
     .heading{
         font-size: 100px;

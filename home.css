@@ -2,7 +2,8 @@
 body{
     background-color: rgb(249, 228, 204);
     height: 100vh;
-    margin: 0px;   /*To make sure the branch comes from the side of the page with no gap*/ 
+    margin: 0px 15px 0px 0px;   /*To make sure the branch comes from the side of the page with no gap*/ 
+
 }
 
 footer{

@@ -42,9 +42,46 @@
 }
 
 @media only screen and (max-width: 970px){
-
+    .img-and-resume-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 50%;
+    }
+    .aboutme-text-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #resume-link{
+        font-size: 30px;
+        font-weight: bold;
+        color:rgb(112, 66, 30);
+        text-decoration: none;
+    }
+    #resume-link-leaf{
+        max-width: 25%;
+    }
 }
 
 @media only screen and (max-width: 500px){
+    #resume-link{
+        font-size: 15px;
+        margin: 0px;
 
+    }
+    #profile-pic{
+        max-width: 70%;
+    }
+    #resume-link-leaf{
+        max-width: 20%;
+    }
+    #aboutme-text{
+        max-width: 70%;
+        font-size: 14px;
+        padding: 0px 20px;
+    }
+    #about-me-heading{
+        font-size: 40px;
+    }
 }

@@ -1,4 +1,7 @@
 /* CSS for page showing the list of blog posts */
+.blog-posts{
+    list-style-type: none;
+}
 .blog-posts a{
     color: rgb(112, 66, 30);
     font-size: 50px;
@@ -44,11 +47,49 @@
 }
 
 @media only screen and (max-width: 1350px){
-
+    .blog-posts a{
+        font-size: 40px;
+    }
+    
+    .blog-posts a img{
+        margin-right: 10px;
+        max-width: 10%;
+    }
+    .blog-post-heading{
+        font-size: 35px;
+        margin: 15px;
+    }
+    
+    .blog-post-image{
+        max-width: 30%;
+    }
+    
+    .blog-post-text{
+        max-width: 70%;
+        margin-top: 5%;
+        font-size: 20px;
+    }
 }
 
 @media only screen and (max-width: 970px){
-
+    .blog-posts a{
+        font-size: 30px;
+    }
+    .blog-post-heading{
+        font-size: 30px;
+        font-weight: bold;
+        margin: 10px;
+    }
+    
+    .blog-post-image{
+        max-width: 30%;
+    }
+    
+    .blog-post-text{
+        max-width: 70%;
+        margin-top: 5%;
+        font-size: 16px;
+    }
 }
 
 @media only screen and (max-width: 500px){
@@ -59,7 +100,7 @@
     }
     .blog-posts a{
         color: rgb(112, 66, 30);
-        font-size: 25px;
+        font-size: 18px;
         margin-bottom: 0px;
         font-weight: bold;
         margin-top: 20px;
@@ -81,11 +122,16 @@
         align-items: center;
     }
     .blog-post-heading{
-        font-size: 30px;
-        margin: 15px;
+        font-size: 25px;
+        margin: 10px;
     }
     
     .blog-post-image{
         max-width: 40%;
+    }
+    .blog-post-text{
+        max-width: 70%;
+        margin-top: 5%;
+        font-size: 14px;
     }
 }

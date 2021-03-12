@@ -3,7 +3,10 @@ body{
     background-color: rgb(249, 228, 204);
     height: 100vh;
     margin: 0px 15px 0px 0px;   /*To make sure the branch comes from the side of the page with no gap*/ 
+}
 
+body a{
+    /* font-family: 'Courier New', Courier, monospace; */
 }
 
 footer{
@@ -200,7 +203,7 @@ footer{
         font-size: 100px;
     }
     .heading-and-text a{
-        font-size: 80px;
+        font-size: 60px;
         font-weight: bold;
         color:rgb(112, 66, 30);
         margin: 20px;
@@ -213,7 +216,7 @@ footer{
         font-size: 70px;
     }
     .heading-and-text a{
-        font-size: 60px;
+        font-size: 40px;
         font-weight: bold;
         color:rgb(112, 66, 30);
         margin: 20px;
@@ -233,20 +236,20 @@ footer{
         margin-right: 10px;
     }
     .heading-and-text a{
-        font-size: 40px;
-        font-weight: bold;
-        color:rgb(112, 66, 30);
-        margin: 20px;
-        text-decoration: none;
+        font-size: 25px;
+        margin: 0px;
     }
     #intro-text{
-        font-size: 25px;
+        font-size: 15px;
         padding: 10px;
     }
     .branch-image{
         max-width: 30%;
         position: fixed;
         top: 0px;  
+    }
+    .leaf{
+        max-height: 40px;
     }
 }
 

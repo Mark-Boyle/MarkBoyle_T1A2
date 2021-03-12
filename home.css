@@ -6,7 +6,8 @@ body{
 }
 
 body a{
-    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Akaya Kanadaka', cursive;
+    font-weight: bold;
 }
 
 footer{
@@ -37,6 +38,7 @@ footer{
     color: #70421e;
     font-size: 36px;
     padding: 10px;
+    font-family: 'Rum Raisin', sans-serif;
 }
 
 

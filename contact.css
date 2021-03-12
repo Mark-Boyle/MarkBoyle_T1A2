@@ -51,15 +51,11 @@
 }
 
 /* Animation for Social media links in middle of contact page */
-.linkedin-container:hover{
+.linkedin-container a:hover{
     animation: ripple-red 10s;
 }
-.linkedin-container img:hover{
+.linkedin-container img{
     content: url(Linkedin-logo-red.png);
-}
-
-#linkedin-logo{
-    padding-right: 10px;
 }
 
 @media only screen and (max-width: 1350px){

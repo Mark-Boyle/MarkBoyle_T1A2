@@ -42,6 +42,16 @@
     margin: 10px;
 }
 
+#linkedin-logo:hover{
+    animation: ripple-red 10s;
+    content: url(Linkedin-logo-red.png); 
+}
+
+#github-logo:hover{
+    animation: ripple-yellow 10s;
+    content: url(Github-logo-yellow.png); 
+}
+
 @media only screen and (max-width: 1350px){
     .social-media-links{
         position: relative;

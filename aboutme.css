@@ -11,7 +11,6 @@
 
 #aboutme-text{
     max-width: 45%;
-    /* margin-top: 50px; */
     color: rgb(112, 66, 30);
     font-size: 24px;
     padding: 0px 20px;
@@ -38,13 +37,10 @@
     font-family: 'Rum Raisin', sans-serif;
 }
 
+/* Media queries to make the page responsive when changing screen sizes */
 @media only screen and (max-width: 1350px){
     #resume-link{
         font-size: 33px;
-        font-weight: bold;
-        color:rgb(112, 66, 30);
-        margin: 20px;
-        text-decoration: none;
     }
     #resume-link-leaf{
         max-width: 20%;
@@ -54,37 +50,26 @@
 @media only screen and (max-width: 970px){
     .img-and-resume-container{
         display: flex;
-        flex-direction: column;
+        flex-direction: column; /*To make the profile pic go on top of the resume link*/
         align-items: center;
         max-width: 50%;
     }
     .aboutme-text-container{
         display: flex;
-        flex-direction: column;
+        flex-direction: column;  /*To make the Work History go on top of the Skills section*/
         justify-content: center;
     }
     #resume-link{
         font-size: 30px;
-        font-weight: bold;
-        color:rgb(112, 66, 30);
-        text-decoration: none;
     }
-    #resume-link-leaf{
-        max-width: 20%;
-    }
-}
 
 @media only screen and (max-width: 500px){
     #resume-link{
         font-size: 15px;
         margin: 0px;
-
     }
     #profile-pic{
         max-width: 70%;
-    }
-    #resume-link-leaf{
-        max-width: 20%;
     }
     #aboutme-text{
         max-width: 70%;

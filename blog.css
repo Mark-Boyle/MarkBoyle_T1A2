@@ -18,7 +18,7 @@
 .blog-posts p{   /*For text "posted: 12/02/2021" on blog posts */
     color: rgb(112, 66, 30);
     font-size: 20px;
-    margin: 0px 0px 20px 70px;
+    margin: 0px 0px 20px 70px;  /*Margin on left is 70px to indent the 'Posted:{date}' text*/
 }
 
 /* CSS for individual blog post pages */
@@ -46,6 +46,7 @@
     color: rgb(112, 66, 30);
 }
 
+/* Media queries to make the page responsive to changing screen sizes */
 @media only screen and (max-width: 1350px){
     .blog-posts a{
         font-size: 40px;
@@ -111,7 +112,7 @@
         margin-right: 10px;
         width: 10%;
     }
-    .blog-posts p{   /*For text "posted: 12/02/2021" on blog posts */
+    .blog-posts p{   /*For text "posted:{date}" on blog posts */
         font-size: 15px;
         margin: 0px 0px 15px 70px;
     }

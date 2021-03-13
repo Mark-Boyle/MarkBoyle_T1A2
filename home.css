@@ -52,11 +52,10 @@ footer{
     flex-wrap: wrap;    
     font-size: 150px;
     text-shadow: 5px 5px black;
-    /* border: 1px solid black; */
 }
 
 .heading p{
-    margin: 0px 5px;
+    margin: 0px 5px;  /*To seperate the letters of the heading*/
 }
 
 .first-name{
@@ -93,7 +92,7 @@ footer{
 }
 
 #space{
-    margin-right: 50px;
+    margin-right: 50px;  /*To create the space between 'Mark' and 'Boyle'*/
 }
 /* Animation to make letters bounce */
 @keyframes bouncing-letter{
@@ -114,7 +113,8 @@ footer{
     }
 }
 
-.links-container{
+/* CSS for the 3 links on the home page: About Me, Blog and Contact */
+.links-container{   /*To connect the leaf with the title*/
     display: flex;
     flex-direction: column;
 }
@@ -133,10 +133,6 @@ footer{
     text-decoration: none;
 }
 
-.ripple p{
-    display: inline;
-}
-
 .ripple-red:hover{
     animation: ripple-red 10s 0s;
 }
@@ -150,7 +146,7 @@ footer{
 }
 
 
-
+/* Animations for all the links on the website */
 @keyframes ripple-red{
     0%{
         transform: translateY(0px);
@@ -206,10 +202,7 @@ footer{
     }
     .heading-and-text a{
         font-size: 60px;
-        font-weight: bold;
-        color:rgb(112, 66, 30);
         margin: 20px;
-        text-decoration: none;
     }
 }
 
@@ -219,10 +212,6 @@ footer{
     }
     .heading-and-text a{
         font-size: 40px;
-        font-weight: bold;
-        color:rgb(112, 66, 30);
-        margin: 20px;
-        text-decoration: none;
     }
     #intro-text{
         font-size: 30px;
@@ -245,7 +234,7 @@ footer{
         font-size: 15px;
         padding: 10px;
     }
-    .branch-image{
+    .branch-image{    /*Moves the branch with leaves image to the top of the page as the navbar comes to the side*/
         max-width: 30%;
         position: fixed;
         top: 0px;  

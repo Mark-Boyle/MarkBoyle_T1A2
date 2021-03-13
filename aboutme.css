@@ -34,6 +34,9 @@
 .aboutme-text-container{
     display: flex;
     justify-content: center;
+}
+
+.aboutme-text-container h3{      /*Font for the 'Work History' and 'Skills' headings */
     font-family: 'Rum Raisin', sans-serif;
 }
 

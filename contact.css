@@ -22,6 +22,18 @@
     border-radius: 10px;    
 }
 
+#message-submit-button:hover{
+    color: rgb(225, 100, 56);
+    border-radius: 10px;    
+}
+
+#message-submit-button:active{
+    color: rgb(225, 100, 56);
+    border-radius: 10px; 
+    transform: translateY(4px);   
+    opacity: 0.9;
+}
+
 #message-form-header{
     color: rgb(112, 66, 30);
     font-size: 35px;

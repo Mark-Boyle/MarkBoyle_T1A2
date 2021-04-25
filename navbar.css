@@ -43,13 +43,27 @@
 }
 
 #linkedin-logo:hover{
-    animation: ripple-red 10s;
     content: url(images/Linkedin-logo-red.png); 
+    animation: social-media-link-jump 10s;
 }
 
 #github-logo:hover{
-    animation: ripple-yellow 10s;
     content: url(images/Github-logo-yellow.png); 
+    animation: social-media-link-jump 10s;
+}
+
+@keyframes social-media-link-jump{
+    0%{
+        transform: translateY(0px);
+    }
+    3%{
+        transform: translateY(-8px);
+    }
+    6%{
+        transform: translateY(0px);
+    }
+    100%{
+    }
 }
 
 @media only screen and (max-width: 1350px){

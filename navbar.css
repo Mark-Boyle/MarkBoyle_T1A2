@@ -43,17 +43,33 @@
 }
 
 #linkedin-logo:hover{
-    content: url(images/Linkedin-logo-red.png); 
-    animation: social-media-link-jump 10s;
+     
+    animation: social-media-link-jump-linkedin 10s;
 }
 
 #github-logo:hover{
-    content: url(images/Github-logo-yellow.png); 
-    animation: social-media-link-jump 10s;
+    
+    animation: social-media-link-jump-github 10s;
 }
 
-@keyframes social-media-link-jump{
+@keyframes social-media-link-jump-linkedin{
     0%{
+        content: url(images/Linkedin-logo-red.png);
+        transform: translateY(0px);
+    }
+    3%{
+        transform: translateY(-8px);
+    }
+    6%{
+        transform: translateY(0px);
+    }
+    100%{
+    }
+}
+
+@keyframes social-media-link-jump-github{
+    0%{
+        content: url(images/Github-logo-yellow.png); 
         transform: translateY(0px);
     }
     3%{

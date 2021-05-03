@@ -54,7 +54,7 @@
 
 @keyframes social-media-link-jump-linkedin{
     0%{
-        content: url(images/Linkedin-logo-red.png);
+        /* content: url(images/Linkedin-logo-red.png); */
         transform: translateY(0px);
     }
     3%{
@@ -69,7 +69,7 @@
 
 @keyframes social-media-link-jump-github{
     0%{
-        content: url(images/Github-logo-yellow.png); 
+        /* content: url(images/Github-logo-yellow.png);  */
         transform: translateY(0px);
     }
     3%{

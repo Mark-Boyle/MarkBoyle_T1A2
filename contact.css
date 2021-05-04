@@ -46,6 +46,22 @@
     flex-direction: column;
 }
 
+.contact-link-container a{
+    font-family: 'Akaya Kanadaka', cursive;
+    font-weight: bold;
+    font-size: 90px;
+    font-weight: bold;
+    color:rgb(112, 66, 30);
+    /* margin: 20px; */
+    text-decoration: none;
+}
+
+.contact-link-container img{
+    max-height: 100px;
+    position: relative;
+    top: 10px;
+}
+
 .contact-link{
     display: flex;
     justify-content: center;

@@ -62,6 +62,13 @@
     top: 10px;
 }
 
+.contact-link-container p{
+    color: #70421e;
+    font-size: 36px;
+    padding: 10px;
+    font-family: 'Rum Raisin', sans-serif;
+}
+
 .contact-link{
     display: flex;
     justify-content: center;
